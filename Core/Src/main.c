@@ -42,6 +42,12 @@
 #define IMU_ADDR (0x68 << 1)
 
 #define IMU_REG_PWR_MGMT_1 0x6B
+#define IMU_REG_ACCEL_XOUT_H 0x3B
+
+// default full-scale ranges (+-2 g, +-250 deg/s)
+#define IMU_ACCEL_LSB_PER_G   16384.0f
+#define IMU_GYRO_LSB_PER_DPS  131.0f
+#define IMU_REG_ACCEL_XOUT_H 0x3B
 
 /* USER CODE END PD */
 
@@ -104,6 +110,25 @@ int main(void)
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
 
+    if(HAL_I2C_IsDeviceReady(&hi2c2, IMU_ADDR, 3, 100) != HAL_OK){
+        printf("IMU not found!\r\n");
+    } else{
+        printf("IMU attached!\r\n");
+    }
+
+    uint8_t val = 0x00;
+    if (HAL_I2C_Mem_Write(&hi2c2, 
+                      IMU_ADDR,
+                      IMU_REG_PWR_MGMT_1,
+                      I2C_MEMADD_SIZE_8BIT,
+                      &val,
+                      1,
+                      100
+    ) != HAL_OK) {
+        printf("IMU wake failed!\r\n");
+    }
+    
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -112,11 +137,23 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-    if(HAL_I2C_IsDeviceReady(&hi2c2, IMU_ADDR, 3, 100) != HAL_OK){serialPrint("IMU not found!\r\n");}
-
-    
-
     /* USER CODE BEGIN 3 */
+    uint8_t raw[14];
+    if (HAL_I2C_Mem_Read(&hi2c2, IMU_ADDR, IMU_REG_ACCEL_XOUT_H,
+                         I2C_MEMADD_SIZE_8BIT, raw, 14, 100) == HAL_OK) {
+        float ax = (int16_t)((raw[0]  << 8) | raw[1])  / IMU_ACCEL_LSB_PER_G;
+        float ay = (int16_t)((raw[2]  << 8) | raw[3])  / IMU_ACCEL_LSB_PER_G;
+        float az = (int16_t)((raw[4]  << 8) | raw[5])  / IMU_ACCEL_LSB_PER_G;
+        float gx = (int16_t)((raw[8]  << 8) | raw[9])  / IMU_GYRO_LSB_PER_DPS;
+        float gy = (int16_t)((raw[10] << 8) | raw[11]) / IMU_GYRO_LSB_PER_DPS;
+        float gz = (int16_t)((raw[12] << 8) | raw[13]) / IMU_GYRO_LSB_PER_DPS;
+
+        // printed in milli-units as integers so it doesn't need printf float support
+        printf("A[mg]: %d %d %d  G[mdps]: %d %d %d\r\n",
+               (int)(ax * 1000), (int)(ay * 1000), (int)(az * 1000),
+               (int)(gx * 1000), (int)(gy * 1000), (int)(gz * 1000));
+    }
+    HAL_Delay(100);
   }
   /* USER CODE END 3 */
 }
