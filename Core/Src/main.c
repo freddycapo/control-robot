@@ -27,6 +27,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+#include "serial_print.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -36,6 +38,10 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+
+#define IMU_ADDR (0x68 << 1)
+
+#define IMU_REG_PWR_MGMT_1 0x6B
 
 /* USER CODE END PD */
 
@@ -105,6 +111,10 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+
+    if(HAL_I2C_IsDeviceReady(&hi2c2, IMU_ADDR, 3, 100) != HAL_OK){serialPrint("IMU not found!\r\n");}
+
+    
 
     /* USER CODE BEGIN 3 */
   }
