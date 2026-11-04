@@ -39,15 +39,11 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 
-#define IMU_ADDR (0x68 << 1)
 
-#define IMU_REG_PWR_MGMT_1 0x6B
-#define IMU_REG_ACCEL_XOUT_H 0x3B
 
 // default full-scale ranges (+-2 g, +-250 deg/s)
 #define IMU_ACCEL_LSB_PER_G   16384.0f
 #define IMU_GYRO_LSB_PER_DPS  131.0f
-#define IMU_REG_ACCEL_XOUT_H 0x3B
 
 /* USER CODE END PD */
 
@@ -150,7 +146,7 @@ int main(void)
 
         // printed in milli-units as integers so it doesn't need printf float support
         printf("A[mg]: %d %d %d  G[mdps]: %d %d %d\r\n",
-               (int)(ax * 1000), (int)(ay * 1000), (int)(az * 1000),
+               (int8_t)(ax * 1000), (int)(ay * 1000), (int)(az * 1000),
                (int)(gx * 1000), (int)(gy * 1000), (int)(gz * 1000));
     }
     HAL_Delay(100);

@@ -1,9 +1,6 @@
-#ifndef __SERIAL_PRINT__
-#define __SERIAL_PRINT__
-
-#include <stdint.h>
-#include <stdio.h>
+#ifndef SERIAL_PRINT
+#define SERIAL_PRINT
 
 // printf() is redirected to USB CDC via _write() in serial_print.c
 
-#endif /* __SERIAL_PRINT__ */
+#endif /* SERIAL_PRINT */
