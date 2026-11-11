@@ -1,0 +1,710 @@
+[
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/libcc4/uart-lib/cobs.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include .pio/libdeps/dev/uart-lib/src/cobs.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": ".pio/libdeps/dev/uart-lib/src/cobs.c",
+        "output": ".pio/build/dev/libcc4/uart-lib/cobs.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/libcc4/uart-lib/crc16.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include .pio/libdeps/dev/uart-lib/src/crc16.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": ".pio/libdeps/dev/uart-lib/src/crc16.c",
+        "output": ".pio/build/dev/libcc4/uart-lib/crc16.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/libcc4/uart-lib/frame.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include .pio/libdeps/dev/uart-lib/src/frame.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": ".pio/libdeps/dev/uart-lib/src/frame.c",
+        "output": ".pio/build/dev/libcc4/uart-lib/frame.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/dma.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/dma.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/dma.c",
+        "output": ".pio/build/dev/src/Core/Src/dma.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/gpio.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/gpio.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/gpio.c",
+        "output": ".pio/build/dev/src/Core/Src/gpio.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/i2c.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/i2c.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/i2c.c",
+        "output": ".pio/build/dev/src/Core/Src/i2c.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/main.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/main.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/main.c",
+        "output": ".pio/build/dev/src/Core/Src/main.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/pasqualo-firmware/mpu6050.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/pasqualo-firmware/mpu6050.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/pasqualo-firmware/mpu6050.c",
+        "output": ".pio/build/dev/src/Core/Src/pasqualo-firmware/mpu6050.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/pasqualo-firmware/pca9685.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/pasqualo-firmware/pca9685.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/pasqualo-firmware/pca9685.c",
+        "output": ".pio/build/dev/src/Core/Src/pasqualo-firmware/pca9685.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/pasqualo-firmware/serial_print.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/pasqualo-firmware/serial_print.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/pasqualo-firmware/serial_print.c",
+        "output": ".pio/build/dev/src/Core/Src/pasqualo-firmware/serial_print.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/pasqualo-firmware/uart_link.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/pasqualo-firmware/uart_link.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/pasqualo-firmware/uart_link.c",
+        "output": ".pio/build/dev/src/Core/Src/pasqualo-firmware/uart_link.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/stm32f4xx_hal_msp.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/stm32f4xx_hal_msp.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/stm32f4xx_hal_msp.c",
+        "output": ".pio/build/dev/src/Core/Src/stm32f4xx_hal_msp.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/stm32f4xx_it.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/stm32f4xx_it.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/stm32f4xx_it.c",
+        "output": ".pio/build/dev/src/Core/Src/stm32f4xx_it.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/syscalls.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/syscalls.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/syscalls.c",
+        "output": ".pio/build/dev/src/Core/Src/syscalls.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/sysmem.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/sysmem.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/sysmem.c",
+        "output": ".pio/build/dev/src/Core/Src/sysmem.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/system_stm32f4xx.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/system_stm32f4xx.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/system_stm32f4xx.c",
+        "output": ".pio/build/dev/src/Core/Src/system_stm32f4xx.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/tim.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/tim.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/tim.c",
+        "output": ".pio/build/dev/src/Core/Src/tim.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Core/Src/usart.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Core/Src/usart.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Core/Src/usart.c",
+        "output": ".pio/build/dev/src/Core/Src/usart.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c",
+        "output": ".pio/build/dev/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+        "output": ".pio/build/dev/src/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc_if_template.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc_if_template.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc_if_template.c",
+        "output": ".pio/build/dev/src/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc_if_template.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+        "output": ".pio/build/dev/src/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+        "output": ".pio/build/dev/src/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+        "output": ".pio/build/dev/src/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/USB_DEVICE/App/usb_device.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include USB_DEVICE/App/usb_device.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "USB_DEVICE/App/usb_device.c",
+        "output": ".pio/build/dev/src/USB_DEVICE/App/usb_device.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/USB_DEVICE/App/usbd_cdc_if.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include USB_DEVICE/App/usbd_cdc_if.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "USB_DEVICE/App/usbd_cdc_if.c",
+        "output": ".pio/build/dev/src/USB_DEVICE/App/usbd_cdc_if.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/USB_DEVICE/App/usbd_desc.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include USB_DEVICE/App/usbd_desc.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "USB_DEVICE/App/usbd_desc.c",
+        "output": ".pio/build/dev/src/USB_DEVICE/App/usbd_desc.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/dev/src/USB_DEVICE/Target/usbd_conf.o -c -std=gnu23 -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m4 -DF_CPU=84000000L -DPLATFORMIO=60200 -DSTM32F4 -DSTM32F4xx -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -I. -I.pio/libdeps/dev/uart-lib/include -I.pio/libdeps/dev/uart-lib/src -ICore/Inc -ICore/Inc/pasqualo-firmware -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include USB_DEVICE/Target/usbd_conf.c",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "USB_DEVICE/Target/usbd_conf.c",
+        "output": ".pio/build/dev/src/USB_DEVICE/Target/usbd_conf.o"
+    },
+    {
+        "command": "/home/freddy/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-as -mthumb -mcpu=cortex-m4 -o .pio/build/dev/src/startup_stm32f401xc.o startup_stm32f401xc.s",
+        "directory": "/home/freddy/personal-Projects/Pasqualo-Firmware",
+        "file": "startup_stm32f401xc.s",
+        "output": ".pio/build/dev/src/startup_stm32f401xc.o"
+    }
+]
